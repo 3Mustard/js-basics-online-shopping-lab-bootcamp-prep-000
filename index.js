@@ -20,11 +20,11 @@ function addToCart(item) {
 function viewCart() {
   var itemsAndPrices = [];
   if(cart.length === 0){
-    return "Your shopping cart is empty";
+    return "Your shopping cart is empty.";
   }else{
     for(var i = 0; i < cart.length; i++){
       var itemAndPrice = cart[i];
-      var item = cart.itemName;
+      var item = itemsAndPrice.itemName;
       var price = cart.itemPrice;
       itemsAndPrices.push(`${item} at $${price}`);
       }
