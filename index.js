@@ -21,7 +21,7 @@ function viewCart() {
   var itemsAndPrices = [];
   if(cart.length === 0){
     return "Your shopping cart is empty.";
-  }else{
+  }else if{
     for(var i = 0; i < cart.length; i++){
       var itemAndPrice = cart[i];
       var item = itemsAndPrice.itemName;
