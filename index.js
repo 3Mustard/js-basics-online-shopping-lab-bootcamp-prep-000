@@ -28,8 +28,7 @@ function viewCart() {
       var price = cart.itemPrice;
       itemsAndPrices.push(`${item} at $${price}`);
       }
-    retu
-    }
+    return `    }
 }
 
 function total() {
