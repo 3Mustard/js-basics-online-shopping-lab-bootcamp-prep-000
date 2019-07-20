@@ -28,7 +28,8 @@ function viewCart() {
       var price = cart.itemPrice;
       itemsAndPrices.push(`${item} at $${price}`);
       }
-    return `    }
+    return `In your cart, you have ${itemsAndPrices.join(", ")}.`;
+    }
 }
 
 function total() {
