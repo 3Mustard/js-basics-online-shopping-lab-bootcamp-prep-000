@@ -10,11 +10,19 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ var newObj = {};
+ newObj.itemName = item;
+ newObj.itemPrice = Math.floor(Math.random() * 100) + 1;
+ cart.push(newObj);
+ return `${newObj.itemName} has been added to your cart.`;
 }
 
 function viewCart() {
-  // write your code here
+  if(cart.length === 0){
+    return "Your shopping cart is empty";
+  }else{
+    
+  }
 }
 
 function total() {
