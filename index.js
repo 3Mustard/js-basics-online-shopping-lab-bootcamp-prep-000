@@ -35,6 +35,9 @@ function viewCart() {
   if(cart.length === 1){
     return `${string}${newCart[0]}.`;
   }
+  if(cart.length === 2){
+    return `${string}${newCart[0]}, and ${newCart[1]}.`;
+  }
 }
 
 function total() {
