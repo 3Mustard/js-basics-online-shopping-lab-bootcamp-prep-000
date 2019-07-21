@@ -33,7 +33,7 @@ function viewCart() {
      newCart.push(`${item} at ${price}`);
   }
   if(cart.length === 1){
-    return `${string}${newCart[0]}`;
+    return `${string}${newCart[0]}.`;
   }
 }
 
