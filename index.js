@@ -26,7 +26,7 @@ function viewCart() {
   var price;
   for (var i = 0; i < cart.length; i++){
      itemAndPrice = cart[i];
-     v
+     item = cart[i][itemName];
   }
 }
 
