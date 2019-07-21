@@ -21,15 +21,19 @@ function viewCart() {
  if(cart.length === 0){
     return "Your shopping cart is empty.";
   }
+  var string = "In your cart, you have ";
   var newCart = [];
   var itemAndPrice = [];
   var item;
   var price;
   for (var i = 0; i < cart.length; i++){
      itemAndPrice = cart[i];
-     item = cart[i][itemName];
-     price = cart[i][itemPrice];
+     item = cart[i]["itemName"];
+     price = cart[i]["itemPrice"];
      newCart.push(`${item} at ${price}`);
+  }
+  if(cart.length === 1){
+    return `${string}`;
   }
 }
 
