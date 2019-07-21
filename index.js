@@ -21,11 +21,13 @@ function viewCart() {
  if(cart.length === 0){
     return "Your shopping cart is empty.";
   }
-  var string = "In your cart, you have ";
-  var newCart = [];
-  var itemAndPrice = [];
-  var item;
-  var price;
+  var string = "In your cart, you have";
+  var items = [];
+  var prices = [];
+  let i = 0;
+  while(cart.length > i);
+  items.push(cart[i].itemName);
+  prices.push(' at $' + cart[i].itemPrice);
   for (var i = 0; i < cart.length; i++){
      itemAndPrice = cart[i];
      item = cart[i]["itemName"];
