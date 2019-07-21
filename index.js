@@ -28,8 +28,8 @@ function viewCart() {
   for (var i = 0; i < cart.length; i++){
      itemAndPrice = cart[i];
      item = cart[i][itemName];
-     price = cart[i][itemPrice]
-     
+     price = cart[i][itemPrice];
+     newCart.push(`${item} at ${price}`);
   }
 }
 
