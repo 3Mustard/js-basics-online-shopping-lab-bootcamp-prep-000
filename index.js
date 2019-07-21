@@ -23,7 +23,7 @@ function viewCart() {
   }
   var newCart = [];
   for (var i = 0; i < cart.length; i++){
-    var keys = Object.keys(cart[i])[0];
+    
   }
 }
 
