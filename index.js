@@ -22,8 +22,10 @@ function viewCart() {
     return "Your shopping cart is empty.";
   }
   var newCart = [];
+  var itemName;
+  var itemPrice;
   for (var i = 0; i < cart.length; i++){
-    
+    newCArt = 
   }
 }
 
