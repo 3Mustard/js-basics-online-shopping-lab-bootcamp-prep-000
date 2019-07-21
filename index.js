@@ -21,11 +21,11 @@ function viewCart() {
  if(cart.length === 0){
     return "Your shopping cart is empty.";
   }
-  var newCart = `In your cart, you have ${item} at $${price}`;
+  var itemAndPrice;
   var item;
   var price;
   for (var i = 0; i < cart.length; i++){
-    newCart = 
+     
   }
 }
 
