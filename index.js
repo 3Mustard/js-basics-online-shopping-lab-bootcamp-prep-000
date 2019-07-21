@@ -38,6 +38,9 @@ function viewCart() {
   if(cart.length === 2){
     return `${string}${newCart[0]}, and ${newCart[1]}.`;
   }
+  if(cart.length >= 3){
+    
+  }
 }
 
 function total() {
