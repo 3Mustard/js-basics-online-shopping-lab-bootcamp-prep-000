@@ -30,10 +30,10 @@ function viewCart() {
      itemAndPrice = cart[i];
      item = cart[i]["itemName"];
      price = cart[i]["itemPrice"];
-     newCart.push(`${item} at ${price}`);
+     newCart.push(`${item} at $${price}`);
   }
   if(cart.length === 1){
-    return `${string}$${newCart[0]}.`;
+    return `${string}${newCart[0]}.`;
   }
 }
 
